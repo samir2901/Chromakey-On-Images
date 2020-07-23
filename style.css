@@ -1,0 +1,110 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: #5548a9; 
+  color: whitesmoke; 
+}
+
+h1{
+  text-align: center;  
+  font-size: 30pt;
+}
+
+canvas{
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 300px;
+}
+
+#canvasCont, #fgFileChoose, #bgFileChoose, #buttons-sliders{  
+  text-align: center;
+  margin: 20px;  
+}
+
+#slider-style{
+  margin: 20px;    
+}
+
+#slider{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  width: 20%;
+  background-color: #494949;  
+  outline: none;
+  opacity: 0.5;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#slider:hover{
+  opacity: 1;
+}
+
+label{
+  display: inline-block;
+  padding: 8px 12px; 
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #30bb5aa2;
+  font-size: 16px;
+  color: #fff;
+}
+
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 6px;
+  left: 0;
+  font-size: 15px;
+  color: rgb(153,153,153);
+}
+
+#fgFileChoose, #bgFileChoose{
+  position: relative;
+}
+
+#compositeBtn{
+  background-color: #a7ff83; /* Green */
+  border-radius: 6px;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
+#clearBtn{
+  background-color: #17b978; /* Green */
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
+#downloadBtn{
+  background-color: #086972; 
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
